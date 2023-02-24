@@ -1,0 +1,16 @@
+//write program to print factors count of the given number
+/*eg: 6
+output 4(1,2,3,6)*/
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int n,i;
+	printf("Enter the number\n");
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	if(n%i==0)
+	printf("%d\n",i);
+	
+	
+}
