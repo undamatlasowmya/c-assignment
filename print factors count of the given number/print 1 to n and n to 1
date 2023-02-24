@@ -1,0 +1,19 @@
+//write a program to print 1to n and n to 1
+//eg: n=4
+/* 1  4
+2    3
+3    2
+4     1
+*/
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int n,i,j=5;
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	{
+	j=j-1;
+	printf(" %d  %d\n",i,j);}
+	
+}
